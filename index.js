@@ -2,7 +2,6 @@ function add1HomeScore() {
     let homeScoreEl = document.getElementById("home")
     let homeScore = parseInt(homeScoreEl.textContent)
     homeScoreEl.textContent = homeScore + 1
-    //comment
 }
 
 function add2HomeScore() {
